@@ -39,5 +39,9 @@ if (true){
     const b= 20      
     console.log("Inner value: ", a );
 }
+for (let i = 0; i < array.length; i++) {
+    const element = array[i];
+    
+}
 
 console.log(a);
