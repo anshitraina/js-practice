@@ -28,8 +28,32 @@
 // }
 // chai()
 // ******************Arrow Functions*****************
-const chai = () =>{
-    let username = "anshit"
-    console.log(this.username);
+// const chai = () =>{
+//     let username = "anshit"
+//     console.log(this.username);
+// }
+// chai()
+
+// *************************************
+const AddTwo = (num1, num2) => {
+    return num1 + num2                  //curly braces ke sth return likhna padega
 }
-chai()
+
+console.log(AddTwo(3,5))
+
+
+// -------------------------------------------
+
+const AddTwo1 = (num1, num2) => num1 + num2
+console.log(AddTwo1(3,5))
+
+// --------------------------------------------
+const AddTwo2 = (num1, num2) => (num1 + num2)
+console.log(AddTwo2(3,5))
+
+// --------------------------------------------
+const AddTwo3 = (num1, num2) => ({username:"Anshit"})
+console.log(AddTwo3(3,5))
+
+
+
