@@ -9,3 +9,5 @@
 ((name)=>{
     console.log(`DB connected two ${name}`);
 } ) ('anshit')
+
+// iife done
