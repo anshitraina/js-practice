@@ -21,14 +21,28 @@
 // console.log(`User Power: ${power}`);
 
 // ================================
-const balance=1000
-if(balance<500) {
-    console.log("less than 500")
-}else if (balance<700) {
-    console.log("less than 700")  
-}else if (balance<900){
-    console.log("less than 900")  
-}else {
-    console.log("less than 1200");
+// const balance=1000
+// if(balance<500) {
+//     console.log("less than 500")
+// }else if (balance<700) {
+//     console.log("less than 700")  
+// }else if (balance<900){
+//     console.log("less than 900")  
+// }else {
+//     console.log("less than 1200");
+// }
+
+// ===========================
+const userLoggedIn= true
+const debitCard = true
+
+if (userLoggedIn && debitCard && 2==2){
+    console.log("Allow to buy course");
 }
 
+const userLoggedInfromGoogle= false
+const userLoggedInfromEmail = true
+
+if (userLoggedInfromGoogle || userLoggedInfromEmail || 2==2){
+    console.log("Logged in");
+}
